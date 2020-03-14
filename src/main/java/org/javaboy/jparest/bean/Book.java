@@ -10,7 +10,7 @@ import javax.persistence.Id;
  * @version 1.0.0
  * @date 2020/3/14 1:31
  */
-@Entity(name = "t-book")
+@Entity(name = "t_book")
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
